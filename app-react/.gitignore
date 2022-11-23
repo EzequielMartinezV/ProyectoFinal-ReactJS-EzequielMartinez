@@ -7,7 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-REACJS/node_modules
+../REACJS/node_modules
 node_modules
 dist
 dist-ssr
