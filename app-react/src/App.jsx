@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ItemListConteiner from './components/ItemListConteiner/ItemListConteiner'
 import NavBarBoost from './components/NavBar/NavBar';
 import './App.css'
@@ -11,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <NavBarBoost />
-      <ItemListConteiner greeting='¡Hola!' />
+      <ItemListConteiner />
     </div>
   )
 }
